@@ -30,8 +30,8 @@
     <section id="menu ">
         
     </section>
-    <section class="lg:flex mt-[10em] lg:justify-center lg:gap-20 lg:mx-4">
-        <div>
+    <section class="lg:flex lg:mt-[10em] lg:justify-center lg:gap-20 lg:mx-4">
+        <div class="hidden lg:flex">
             <div class="font-['Roboto'] tracking-wider text-5xl font-normal text-white  ml-[.5em] mb-[1em] lg:hidden ">About Me</div>
             <div class="flex items-center flex-col gap-4">
                 <div class="flex justify-center"><img src="./assets/photo.JPG" alt="" class="w-[15em] h-[15em] object-center overflow-hidden object-cover rounded-2xl"></div>
@@ -73,14 +73,14 @@
                     <div><a href="https://www.instagram.com/omprasad7599" target="_blank" rel="noopener noreferrer"><div class="bg-[#1d1d1d] hover:bg-neutral-800 px-4 py-2 rounded-lg"><i class="fa-brands fa-instagram text-2xl text-transparent bg-clip-text bg-gradient-to-r from-[#fc9f01] to-[#e0009f]"></i></div></a></div>
                     <div><a href="https://facebook.com/omprasad.dornala/" target="_blank" rel="noopener noreferrer"><div class="bg-[#1d1d1d] hover:bg-neutral-800 px-4 py-2 rounded-lg"><i class="fa-brands fa-square-facebook text-2xl text-[#0a66c2]"></i></div></a></div>
                 </div>
-                <div><a href="https://drive.google.com/uc?id=1150QgqD4_WRM1rsA6DWzFvZDU1lGipom&export=download"><div class="text-white bg-gradient-to-r from-[#fc9f01] to-[#e0009f] hover:from-[#e0009f] hover:to-[#fc9f01] px-6 py-3 text-center text-xl font-semibold rounded-full mt-2">Download Resume</div></a></div>
+                <div class="text-white bg-gradient-to-r from-[#fc9f01] to-[#e0009f] hover:from-[#e0009f] hover:to-[#fc9f01] px-6 py-3 text-center text-xl font-semibold rounded-full mt-2">Download Resume</div>
                 
             </div>
         </div>
-        <div class="lg:w-[55em] flex flex-col gap-16 lg:mt-[10.2em]">
+        <div class="lg:w-[55em] flex flex-col lg:gap-16 lg:mt-[10.2em]">
             <div class="flex flex-row justify-around items-center bg-[#000000] mt-8 py-2 fixed lg:static bottom-0 w-full lg:w-9/12 lg:bg-[#1d1d1d] lg:px-4 lg:py-4 lg:rounded-xl lg:ml-[11.7em]">
                 <!-- Item Start -->
-                <div class="lg:bg-gradient-to-r from-[#fc9f01] to-[#e0009f] transition-all lg:px-2 lg:py-3 group rounded-xl w-20 ">
+                <div class="bg-black lg:hover:bg-gradient-to-r from-[#fc9f01] to-[#e0009f] transition-all lg:px-2 lg:py-3 group rounded-xl w-20 ">
                     <a href="./index.html">
                         <div class="flex flex-col items-center justify-center">
                             <div><i class="fa-regular fa-user text-white text-2xl lg:text-xl"></i></div>
@@ -120,60 +120,52 @@
                 </div>
                 <!-- Item End -->
                 <!-- Item Start -->
-                <div class="bg-black lg:hover:bg-gradient-to-r from-[#fc9f01] to-[#e0009f] transition-all lg:px-2 lg:py-3 group rounded-xl w-20">
+                <div class="lg:bg-gradient-to-r from-[#fc9f01] to-[#e0009f] transition-all lg:px-2 lg:py-3 group rounded-xl w-20">
                     <a href="./contact.html">
                         <div class="flex flex-col items-center">
                             <div><i class="fa-solid fa-address-book text-white text-2xl lg:text-xl"></i></div>
-                            <div class="text-white  font-['Poppins'] text-sm hidden lg:contents">Contact</div>
+                            <div class="text-white font-['Poppins'] text-sm hidden lg:contents">Contact</div>
                         </div>
                     </a>
                 </div>
                 <!-- Item End -->
             </div>
-        
-            <div class="mb-4 lg:bg-[#1d1d1d] lg:px-8 lg:py-4 lg:rounded-2xl ">
-                <div class="hidden lg:contents">
-                    <div class="flex flex-row items-center gap-8">
-                        <div class="font-['Roboto'] tracking-wider text-5xl font-normal text-white  ml-[.5em] mb-[1em] mt-12">
-                            About Me</div>
-                        <div class="border-b-1 border-neutral-700 w-48 ">
-                            <div class="bg-gradient-to-r from-orange-500 to-red-600 h-0.5"></div>
-                        </div>
+            
+            <div class="lg:bg-[#1d1d1d] lg:px-2 lg:py-4 lg:rounded-2xl flex flex-col gap-5 my-[3em] lg:mt-0">
+                <div class="flex flex-row items-center gap-8 mt-[3em] ml-4 lg:mt-8 lg:ml-12 "> 
+                    <div class="text-4xl font-bold text-white " style="font-family: 'Roboto Slab';">Contact</div>
+                    <div class="border-b-1 border-neutral-700 w-48 hidden lg:block">
+                        <div class="bg-gradient-to-r from-orange-500 to-red-600 h-0.5"></div>
                     </div>
-                    <div class="text-neutral-400 text-lg mb-4">I'm a Oracle Agile PLM Technical Executive works for Tata Consultancy Services. I am proficient in Java, Agile PLM Frameworks, and integrations.</div>
-                    <div class="text-neutral-400 text-lg">My goal as an aspiring full-stack JavaScript developer is to convey your message and individuality in the most original way possible.</div>
                 </div>
-                <div class="font-['Roboto'] tracking-wider text-3xl font-normal text-white mt-[1em] ml-[.5em] mb-[1em]">What I
-                    do!</div>
-                <div class="flex flex-wrap justify-center">
-                    <div class="flex gap-3 border-2 border-neutral-800 rounded-lg px-4 py-8 m-2 w-[20em] h-[10em]">
-                        <div><i class="fa-sharp fa-solid fa-code text-4xl text-[#2827CC]"></i></div>
-                        <div class="flex flex-col gap-2">
-                            <div class="text-white text-xl font-bold">Oracle Agile PLM</div>
-                            <div class="text-neutral-400">Technical executive having knowledge on PC, PCM, PQM, PPM Modules.</div>
+                <div>
+                    <section class="text-gray-600 body-font">
+                        <div class="container px-5 py-2 mx-auto flex flex-wrap max-w-[30em]">
+                            <div class=" flex flex-col w-full px-4 py-8 mt-8 border-2 border-neutral-600 rounded-lg ">
+                                <h2 class="text-white font-['Poppins'] text-3xl mb-1 font-medium title-font">Contact Me</h2>
+                                <p class="leading-relaxed mb-5 text-neutral-400">Fill the details and Submit the form. I will reach out to you shortly... </p>
+                                <div class="flex ">
+                                    <iframe name="hiddenFrame" width="0" height="0" style="display: none;" ></iframe>
+                                    <form action="https://formspree.io/f/mzbqdrbk" method="POST" class="flex flex-col w-full" target="hiddenFrame">
+                                
+                                        <label for="name" class="leading-7 tracking-wide  font-['Roboto'] text-neutral-300">Name <span class="text-red-400">*</span></label>
+                                        <input type="text" id="name" name="name" placeholder="Enter FullName here" required
+                                            class="w-full bg-neutral-600 mb-2  rounded border border-neutral-400 focus:border-red-400 focus:ring-2 focus:ring-red-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out text-neutral-100">
+                                        <label for="email" class="leading-7 tracking-wide  font-['Roboto'] text-neutral-300">Email <span class="text-red-400">*</span></label>
+                                        <input type="email" id="email" name="email" placeholder="Enter Email address here" required
+                                            class="w-full bg-neutral-600 mb-2 rounded border border-neutral-400 focus:border-red-400 focus:ring-2 focus:ring-red-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out text-neutral-100">
+                                        <label for="number" class="leading-7 tracking-wide  font-['Roboto'] text-neutral-300">Mobile Number <span class="text-red-400">*</span></label>
+                                        <input id="number" name="number" type="tel" pattern="[0-9]{10}" placeholder="Enter Mobile Number here"  maxlength="10" required
+                                            class="w-full bg-neutral-600 mb-4 rounded border border-neutral-400 focus:border-red-400 focus:ring-2 focus:ring-red-400 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out text-neutral-100">
+                                        </input>
+                                    <button name="submit"
+                                        class="text-white bg-gradient-to-r from-[#fc9f01] to-[#e0009f] hover:from-[#e0009f] hover:to-[#fc9f01] border-0 py-2 px-6 font-['poppins'] text-xl focus:outline-none hover:bg-indigo-600 rounded text-lg text-center" type="submit" onclick = "setTimeout(function() { document.getElementById('name').value=''; document.getElementById('email').value=''; document.getElementById('number').value=''}, 1000)"
+                                        >Submit Details</button>
+                                    </form>
+                                </div>
+                                </div>
                         </div>
-                    </div>
-                    <div class="flex gap-3 border-2 border-neutral-800 rounded-lg px-3 py-8 m-2 w-[20em] h-[10em]">
-                        <div><i class="fa-sharp fa-solid fa-code text-4xl text-[#2827CC]"></i></div>
-                        <div class="flex flex-col gap-2">
-                            <div class="text-white text-xl font-bold">Agile PLM Configuration</div>
-                            <div class="text-neutral-400">Classes, workflows, Roles, Event Management and Criterias in JavaClient</div>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 border-2 border-neutral-800 rounded-lg px-4 py-8 m-2 w-[20em] h-[10em]">
-                        <div><i class="fa-solid fa-gears text-4xl text-[#2827CC]"></i></div>
-                        <div class="flex flex-col gap-2">
-                            <div class="text-white text-xl font-bold">Agile PLM Development</div>
-                            <div class="text-neutral-400">JavaClient, Integration, Database, SDK and ACS</div>
-                        </div>
-                    </div>
-                    <div class="flex gap-3 border-2 border-neutral-800 rounded-lg px-4 py-8 m-2 w-[20em] h-[10em]">
-                        <div><i class="fa-solid fa-gears text-4xl text-[#2827CC]"></i></div>
-                        <div class="flex flex-col gap-2">
-                            <div class="text-white text-xl font-bold">Web Development</div>
-                            <div class="text-neutral-400">HTML, CSS, Tailwind CSS</div>
-                        </div>
-                    </div>
+                      </section>
                 </div>
             </div>
         </div>
